@@ -12,9 +12,9 @@ def index():
 @app.route('/', methods=["POST", "GET"])
 def result():
     if request.method == "POST":
-        turkish_id = request.form['content']
-        output = IDChecker.takeID(turkish_id)
-        return render_template("idchecker.html", output=output)
+        turkish_id = request.form['content'] # Take input from user
+        output = IDChecker.takeID(turkish_id) # Check and return the result of validation
+        return render_template("idchecker.html", output=output) # Pass the validated result to the html
     else:
         return render_template("index.html")
 
