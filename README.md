@@ -9,3 +9,7 @@ Here are rules for a valid ID:
 - The sum of: 1st, 3rd, 5th, 7th and 9th digits multiplied by seven, 
 decremented by the sum of: 2nd, 4th, 6th and 8th digits, divided by 10, have the remainder equal to the 10th digit
 - The remainder from the sum of the first 10 digits, divided by 10, gives the 11th digit.
+
+### Future Directions
+- Better UI.
+- Keeping logs of each enter
