@@ -13,3 +13,4 @@ decremented by the sum of: 2nd, 4th, 6th and 8th digits, divided by 10, have the
 ### Future Directions
 - Better UI.
 - Keeping logs of each enter
+- Create database to store each entry
