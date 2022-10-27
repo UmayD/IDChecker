@@ -1,12 +1,14 @@
 {% extends 'base.html' %}
 
-{% block head %}
-<title>Turkish ID Checker</title>
-{% endblock %}
-
 {% block body %}
-<div class="content">
 
+<!--Title-->
+<header class="header">
+    <h1>Turkish ID Checker</h1>
+</header>
+
+<!--Input bar and submit button-->
+<div class="content">
     <form action="/" method="POST">
         <input type="text" name="content">
         <input type="submit" value="Check ID">
