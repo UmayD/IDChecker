@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="title_checked">
+    <span class="checked_span"><h1>Turkish ID Checked!</h1></span>
+</div>
+
+<hr>
+
+<div class="output">
+    {{ output }}
+</div>
+
+<div class="reset_button">
+    <form action="/" method="POST">
+        <input type="text" name="content">
+        <input type="submit" value="Check ID">
+    </form>
+</div>
+{% endblock %}

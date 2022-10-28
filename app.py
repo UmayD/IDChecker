@@ -14,7 +14,7 @@ def result():
     if request.method == "POST":
         turkish_id = request.form['content'] # Take input from user
         output = IDChecker.takeID(turkish_id) # Check and return the result of validation
-        return render_template("idchecker.html", output=output) # Pass the validated result to the html
+        return render_template("checked.html", output=output) # Pass the validated result to the html
     else:
         return render_template("index.html")
 
